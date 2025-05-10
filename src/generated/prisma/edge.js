@@ -151,7 +151,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "D:\\Projects\\Personal-Projects\\NextJs\\patient-system\\src\\generated\\prisma",
+      "value": "C:\\Users\\Zenbook\\Documents\\GitHub\\patient-system\\src\\generated\\prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -165,7 +165,7 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "D:\\Projects\\Personal-Projects\\NextJs\\patient-system\\prisma\\schema.prisma",
+    "sourceFilePath": "C:\\Users\\Zenbook\\Documents\\GitHub\\patient-system\\prisma\\schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
@@ -183,7 +183,7 @@ const config = {
     "db": {
       "url": {
         "fromEnvVar": "DATABASE_URL",
-        "value": "postgresql://postgres:Godknows@localhost:5432/HealthDb?schema=public"
+        "value": "postgresql://postgres:troyprince01@localhost:5432/HealthDb"
       }
     }
   },

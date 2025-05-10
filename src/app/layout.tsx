@@ -22,8 +22,9 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body suppressHydrationWarning={true}>
-        {loading ? <Loader /> : children}
+      <body suppressHydrationWarning={true} className="text-black"
+      >
+        { children}
       </body>
     </html>
   );

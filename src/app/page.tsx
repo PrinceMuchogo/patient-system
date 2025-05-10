@@ -1,20 +1,19 @@
-import ECommerce from "@/components/Dashboard/E-commerce";
-import { Metadata } from "next";
-import DefaultLayout from "@/components/Layouts/DefaultLaout";
-import React from "react";
+"use client";
 
-export const metadata: Metadata = {
-  title:
-    "Next.js E-commerce Dashboard Page | NextAdmin - Next.js Dashboard Kit",
-  description: "This is Next.js Home page for NextAdmin Dashboard Kit",
-};
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
 
-export default function Home() {
+export default function HomePage() {
+  const router = useRouter();
+  
+  useEffect(() => {
+    // Redirect to dashboard or login
+    router.push("/dashboard");
+  }, [router]);
+  
   return (
-    <>
-      <DefaultLayout>
-        <ECommerce />
-      </DefaultLayout>
-    </>
+    <div className="min-h-screen flex items-center justify-center">
+      <div className="animate-pulse">Redirecting...</div>
+    </div>
   );
 }
